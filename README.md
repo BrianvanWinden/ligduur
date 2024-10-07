@@ -98,6 +98,7 @@ niet-tube   |           |
 >`Answer B` (ligduur niet-tube )= query(1) - query(2) - query(3)
 
 
-#### Parameters `Answer A`
-Runtime = 00:34:52
+#### Parameters
+Runtime `Answer A` = 00:34:52
+Rumtime `Answer B` = 00:33:02
 
