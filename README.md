@@ -9,7 +9,7 @@ Doel: aantal liguren/beddagen uitzetten van patienten die wel vs. niet beademd w
 5. Voor nu alleen patienten opgenomen in 2023 meegenomen als schatting van ligduur/beddagen. 
 
 
-<b>Vier queries gebruiken:</b> 
+#### Vier queries gebruiken:
 
 1. Alle opnames `ICK1234` om totale ligduur te berekenen. 
 2. Van alle opnames `ICK1234` ligduur berekenen van opnames waarin:
@@ -22,6 +22,7 @@ Doel: aantal liguren/beddagen uitzetten van patienten die wel vs. niet beademd w
     2. Patiënt geëxtubeerd is 
     3. Patiënt gedurende de gehele opname een tube in situ had. 
 
+#### Toelichting rekensommen
 De voorwaarde 'geen tube' is bijna onmogelijk om direct te creëren, daarom zijn er meerdere queries gebruikt om het te berekenen. Bij niet post-cardiothoracale chirurgie kreeg ik geen resultaten terug waarvoor ik nog steeds de oplossing niet gevonden heb. 
 De rekensommen aan de hand van hierboven benoemde queries (om te voldoen aan `voorwaarde 3`): 
 > `Answer A`: Beddagen/ligduur van niet cardio patiënten met tube: totale duur van `query(2)-query(4)` <br>
