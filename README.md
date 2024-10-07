@@ -1,12 +1,12 @@
 ## Uitleg queries: bepaling ligduur met en zonder beademing.
-Doel: aantal liguren/beddagen uitzetten van patienten die wel vs. niet beademd worden op `ICK1234`. <br>
+Doel: aantal liguren/beddagen uitzetten van patiënten die wel vs. niet beademd worden op `ICK1234`. <br>
 <b>Voorwaarden:</b> 
 
-1. Bedademd = Tube
+1. Beademd = Tube
 2. Indien deels beademd, hele opname meetellen
-3. Liever geen post chirurgisch patienten (CTC/KCA) 
+3. Liever geen post chirurgisch patiënten (CTC/KCA) 
 4. Alleen opnames gebruiken in de rekensom vab locatie `SK3D` - `SK3G`
-5. Voor nu alleen patienten opgenomen in 2023 meegenomen als schatting van ligduur/beddagen. 
+5. Voor nu alleen patiënten opgenomen in 2023 meegenomen als schatting van ligduur/beddagen. 
 
 
 #### Vier queries gebruiken:
