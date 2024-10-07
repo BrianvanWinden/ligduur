@@ -1,5 +1,5 @@
 ## Uitleg queries: bepaling ligduur met en zonder beademing.
-Doel: aantal liguren/beddagen uitzetten van patienten die wel vs. niet beademd worden op `ICK1234`. 
+Doel: aantal liguren/beddagen uitzetten van patienten die wel vs. niet beademd worden op `ICK1234`. <br>
 <b>Voorwaarden:</b> 
 
 1. Bedademd = Tube
